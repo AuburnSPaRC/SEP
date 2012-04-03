@@ -24,6 +24,7 @@ Index by Category
  Meta-SEPs (SEPs about SEPs or Processes)
 
  P     1  SEP Purpose and Guidelines                              Carroll
+ P    12  Sample reStructuredText SEP Template                    Carroll
 
  Other Informational SEPs
 
@@ -46,6 +47,8 @@ Index by Category
      num  title                                                   owner
      ---  -----                                                   -----
  P     1  SEP Purpose and Guidelines                              Carroll
+
+ P    12  Sample reStructuredText SEP Template                    Carroll
 
 
 Key

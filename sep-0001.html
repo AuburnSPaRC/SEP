@@ -38,7 +38,7 @@ DO NOT USE THIS HTML FILE AS YOUR TEMPLATE!
 </tr>
 <tr class="field"><th class="field-name">Title:</th><td class="field-body">SEP Purpose and Guidelines</td>
 </tr>
-<tr class="field"><th class="field-name">Version:</th><td class="field-body">181</td>
+<tr class="field"><th class="field-name">Version:</th><td class="field-body">$Revision: $</td>
 </tr>
 <tr class="field"><th class="field-name">Last-Modified:</th><td class="field-body"><a class="reference external" href="https://github.com/AuburnSPaRC/SEP/blob/master/sep-0001.txt">2012-02-20 15:26:26 -0600 (Mon, 20 Feb 2012)</a></td>
 </tr>
@@ -140,7 +140,7 @@ broad.  If in doubt, split your SEP into several well-focussed ones.</p>
 style and format described below, shepherds the discussions in the
 appropriate forums, and attempts to build community consensus around
 the idea.  The SEP champion (a.k.a. Author) should first attempt to
-ascertain whether the idea is SEP-able.  Posting to the ros-users list
+ascertain whether the idea is SEP-able.  Posting to the ausparc list
 is the best way to go about this.</p>
 <p>Vetting an idea publicly before going as far as writing a SEP is meant
 to save the potential author time. Many ideas have been brought
@@ -154,11 +154,11 @@ Just because an idea sounds good to the author does not
 mean it will work for most people in most areas where SPaRC is used.</p>
 <p>Once the champion has asked the SPaRC community as to whether an idea
 has any chance of acceptance, a draft SEP should be presented to
-ros-users.  This gives the author a chance to flesh out the draft SEP
+ausparc.  This gives the author a chance to flesh out the draft SEP
 to make properly formatted, of high quality, and to address initial
 concerns about the proposal.</p>
-<p>Following a discussion on ros-users, the draft SEP should be sent to
-the ros-users list. The draft must be written in SEP style as
+<p>Following a discussion on the ausparc list, the draft SEP should be sent to
+the ausparc list. The draft must be written in SEP style as
 described below, else it will be sent back without further regard
 until proper formatting rules are followed.</p>
 <p>If the SEP editor approves, he will assign the SEP a number, label it
@@ -287,7 +287,7 @@ optional and are described below.  All other headers are required.</p>
 * Content-Type: &lt;text/plain | text/x-rst&gt;
 * Requires: &lt;sep numbers&gt;
   Created: &lt;date created on, in dd-mmm-yyyy format&gt;
-  Post-History: &lt;dates of postings to ros-users&gt;
+  Post-History: &lt;dates of postings to ausparc&gt;
 * Replaces: &lt;sep number&gt;
 * Replaced-By: &lt;sep number&gt;
 * Resolution: &lt;url&gt;
@@ -315,7 +315,7 @@ other web resource where the pronouncement about the SEP is made.</em></p>
 Draft phase), a Discussions-To header will indicate the mailing list
 or URL where the SEP is being discussed.  No Discussions-To header is
 necessary if the SEP is being discussed privately with the author, or
-on the ros-users email mailing lists.  Note that email addresses in
+on the ausparc email mailing lists.  Note that email addresses in
 the Discussions-To header will not be obscured.</p>
 <p>The Type header specifies the type of SEP: Standards Track,
 Informational, or Process.</p>
@@ -324,7 +324,7 @@ supported values is &quot;text/x-rst&quot;, which designates reStructuredText
 encoding (see SEP 12 <a class="footnote-reference" href="#id5" id="id3">[2]</a>).</p>
 <p>The Created header records the date that the SEP was assigned a
 number, while Post-History is used to record the dates of when new
-versions of the SEP are posted to ros-users.  Both headers should be
+versions of the SEP are posted to ausparc.  Both headers should be
 in dd-mmm-yyyy format, e.g. 14-Aug-2010.</p>
 <p>Standards Track SEPs must have a SPaRC-Version header which indicates
 the version/distribution of SPaRC that the feature will be released with.
@@ -373,7 +373,7 @@ direction of the SEP.  We try to build consensus around a SEP, but if
 that's not possible, you can always submit a competing SEP.</p>
 <p>If you are interested in assuming ownership of a SEP, send a message
 asking to take over, addressed to both the original author and
-ros-users.  If the original author doesn't respond to email in a
+ausparc.  If the original author doesn't respond to email in a
 timely manner, the SEP editor will make a unilateral decision (it's
 not like such decisions can't be reversed :).</p>
 </div>
@@ -394,25 +394,16 @@ etc.), markup (for reST SEPs), code style (examples should match SEP
 <p>If the SEP isn't ready, the editor will send it back to the author for
 revision, with specific instructions.</p>
 <p>Once the SEP is ready for the repository, the SEP editor will:</p>
-<ul>
-<li><p class="first">Assign a SEP number (almost always just the next available number,
-but sometimes it's a special/joke number, like 666 or 3141).</p>
-</li>
-<li><p class="first">List the SEP in SEP 0 (in two places: the categorized list, and the
-numeric list).</p>
-</li>
-<li><p class="first">Add the SEP to SVN.</p>
-<p>The command to check out a read-only copy of the repository is:</p>
-<pre class="literal-block">
-svn checkout https://code.ros.org/svn/sep/trunk sep
-</pre>
-</li>
-<li><p class="first">Send email back to the SEP author with next steps (post to
-ros-users).</p>
-</li>
+<ul class="simple">
+<li>Assign a SEP number (almost always just the next available number,
+but sometimes it's a special/joke number, like 666 or 3141).</li>
+<li>List the SEP in SEP 0 (in two places: the categorized list, and the
+numeric list).</li>
+<li>Add the SEP to Github.</li>
+<li>Send email back to the SEP author with next steps (post to
+<a class="reference external" href="mailto:ausparc&#64;googlegroups.com">ausparc&#64;googlegroups.com</a>).</li>
 </ul>
-<p>Updates to existing SEPs also come in to <a class="reference external" href="mailto:ausparc&#64;googlegroups.com">ausparc&#64;googlegroups.com</a>.  Many
-SEP authors are not SVN committers yet, so we do the commits for them.</p>
+<p>Updates to existing SEPs also come in to <a class="reference external" href="mailto:ausparc&#64;googlegroups.com">ausparc&#64;googlegroups.com</a>.</p>
 <p>Many SEPs are written and maintained by developers with write access
 to the SPaRC codebase.  The SEP editors monitor the list for
 SEP changes, and correct any structure, grammar, spelling, or markup
@@ -437,7 +428,7 @@ the SVN tree, you can browse the current and past SEP revisions here:
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
 <tr><td class="label">[2]</td><td><em>(<a class="fn-backref" href="#id2">1</a>, <a class="fn-backref" href="#id3">2</a>)</em> SEP 12, Sample reStructuredText SEP Template
-(<a class="reference external" href="http://auburnsparc.github.com/SEP/sep-0012.html">http://auburnsparc.github.com/SEP/sep-0012.html</a>)</td></tr>
+(<a class="reference external" href="http://AuburnSPaRC.github.com/SEP/sep-0012.html">http://AuburnSPaRC.github.com/SEP/sep-0012.html</a>)</td></tr>
 </tbody>
 </table>
 <blockquote>

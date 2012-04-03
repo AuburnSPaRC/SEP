@@ -1,6 +1,6 @@
 SEP: 1
 Title: SEP Purpose and Guidelines
-Version: $Revision: 181 $
+Version: $Revision: $
 Last-Modified: $Date: 2012-02-20 15:26:26 -0600 (Mon, 20 Feb 2012) $
 Author: Michael Carroll
 Status: Active
@@ -89,7 +89,7 @@ Each SEP must have a champion -- someone who writes the SEP using the
 style and format described below, shepherds the discussions in the
 appropriate forums, and attempts to build community consensus around
 the idea.  The SEP champion (a.k.a. Author) should first attempt to
-ascertain whether the idea is SEP-able.  Posting to the ros-users list
+ascertain whether the idea is SEP-able.  Posting to the ausparc list
 is the best way to go about this.
 
 Vetting an idea publicly before going as far as writing a SEP is meant
@@ -105,12 +105,12 @@ mean it will work for most people in most areas where SPaRC is used.
 
 Once the champion has asked the SPaRC community as to whether an idea
 has any chance of acceptance, a draft SEP should be presented to
-ros-users.  This gives the author a chance to flesh out the draft SEP
+ausparc.  This gives the author a chance to flesh out the draft SEP
 to make properly formatted, of high quality, and to address initial
 concerns about the proposal.
 
-Following a discussion on ros-users, the draft SEP should be sent to
-the ros-users list. The draft must be written in SEP style as
+Following a discussion on the ausparc list, the draft SEP should be sent to
+the ausparc list. The draft must be written in SEP style as
 described below, else it will be sent back without further regard
 until proper formatting rules are followed.
 
@@ -258,7 +258,7 @@ optional and are described below.  All other headers are required. ::
   * Content-Type: <text/plain | text/x-rst>
   * Requires: <sep numbers>
     Created: <date created on, in dd-mmm-yyyy format>
-    Post-History: <dates of postings to ros-users>
+    Post-History: <dates of postings to ausparc>
   * Replaces: <sep number>
   * Replaced-By: <sep number>
   * Resolution: <url>
@@ -291,7 +291,7 @@ While a SEP is in private discussions (usually during the initial
 Draft phase), a Discussions-To header will indicate the mailing list
 or URL where the SEP is being discussed.  No Discussions-To header is
 necessary if the SEP is being discussed privately with the author, or
-on the ros-users email mailing lists.  Note that email addresses in
+on the ausparc email mailing lists.  Note that email addresses in
 the Discussions-To header will not be obscured.
 
 The Type header specifies the type of SEP: Standards Track,
@@ -303,7 +303,7 @@ encoding (see SEP 12 [2]_).
 
 The Created header records the date that the SEP was assigned a
 number, while Post-History is used to record the dates of when new
-versions of the SEP are posted to ros-users.  Both headers should be
+versions of the SEP are posted to ausparc.  Both headers should be
 in dd-mmm-yyyy format, e.g. 14-Aug-2010.
 
 Standards Track SEPs must have a SPaRC-Version header which indicates
@@ -364,7 +364,7 @@ that's not possible, you can always submit a competing SEP.
 
 If you are interested in assuming ownership of a SEP, send a message
 asking to take over, addressed to both the original author and
-ros-users.  If the original author doesn't respond to email in a
+ausparc.  If the original author doesn't respond to email in a
 timely manner, the SEP editor will make a unilateral decision (it's
 not like such decisions can't be reversed :).
 
@@ -398,17 +398,12 @@ Once the SEP is ready for the repository, the SEP editor will:
 * List the SEP in SEP 0 (in two places: the categorized list, and the
   numeric list).
 
-* Add the SEP to SVN.  
-
-  The command to check out a read-only copy of the repository is::
-
-      svn checkout https://code.ros.org/svn/sep/trunk sep
+* Add the SEP to Github.  
 
 * Send email back to the SEP author with next steps (post to
-  ros-users).
+  ausparc@googlegroups.com).
 
-Updates to existing SEPs also come in to ausparc@googlegroups.com.  Many
-SEP authors are not SVN committers yet, so we do the commits for them.
+Updates to existing SEPs also come in to ausparc@googlegroups.com.
 
 Many SEPs are written and maintained by developers with write access
 to the SPaRC codebase.  The SEP editors monitor the list for
@@ -431,7 +426,7 @@ References and Footnotes
    https://github.com/AuburnSPaRC/SEP
 
 .. [2] SEP 12, Sample reStructuredText SEP Template
-   (http://auburnsparc.github.com/SEP/sep-0012.html)
+   (http://AuburnSPaRC.github.com/SEP/sep-0012.html)
 
 .. _Issue Tracker: http://github.com/AuburnSPaRC 
 
