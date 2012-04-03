@@ -1,0 +1,478 @@
+SEP: 1
+Title: SEP Purpose and Guidelines
+Version: $Revision: 181 $
+Last-Modified: $Date: 2012-02-20 15:26:26 -0600 (Mon, 20 Feb 2012) $
+Author: Ken Conley
+Status: Active
+Type: Process
+Content-Type: text/x-rst
+Created: 18-Sep-2010
+Post-History: 19-Sep-2010, 20-Feb-2012
+
+
+What is a SEP?
+==============
+
+SEP stands for ROS Enhancement Proposal.  A SEP is a design
+document providing information to the ROS community, or describing
+a new feature for ROS or its processes or environment.  The SEP
+should provide a concise technical specification of the feature and a
+rationale for the feature.
+
+We intend SEPs to be the primary mechanisms for proposing new
+features, for collecting community input on an issue, and for
+documenting the design decisions that have gone into ROS.  The SEP
+author is responsible for building consensus within the community and
+documenting dissenting opinions.
+
+Because the SEPs are maintained as text files in a versioned
+sepository, their revision history is the historical record of the
+feature proposal [1]_.
+
+The SEP process is based on the Python PEP process. We are thankful to
+the Python PEP contributors for providing a process, tools, and
+templates for community participation in a design process.
+
+This initial document is based on a search-and-replace of PEP 1 by
+Barry Warsaw, Jeremy Hylton, David Goodger. Over time, it will
+incorporate ROS-specific changes to this process. The Author field of
+this document has been changed in order to denote seponsibility for
+maintenance, not credit for original authorship.
+
+
+SEP Types
+=========
+
+There are three kinds of SEP:
+
+1. A **Standards Track** SEP describes a new feature or implementation
+   for ROS.
+
+2. An **Informational** SEP describes a ROS design issue, or
+   provides general guidelines or information to the ROS community,
+   but does not propose a new feature.  Informational SEPs do not
+   necessarily sepresent a ROS community consensus or
+   recommendation, so users and implementors are free to ignore
+   Informational SEPs or follow their advice.
+
+3. A **Process** SEP describes a process surrounding ROS, or
+   proposes a change to (or an event in) a process.  Process SEPs are
+   like Standards Track SEPs but apply to areas other than the ROS
+   language itself.  They may propose an implementation, but not to
+   ROS's codebase; they often require community consensus; unlike
+   Informational SEPs, they are more than recommendations, and users
+   are typically not free to ignore them.  Examples include
+   procedures, guidelines, changes to the decision-making process, and
+   changes to the tools or environment used in ROS development.
+   Any meta-SEP is also considered a Process SEP.
+
+
+SEP Work Flow
+=============
+
+The SEP editors assign SEP numbers and change their status.  Please send
+all SEP-related email to <ros-users@code.ros.org> (no cross-posting please).
+Also see `SEP Editor Responsibilities & Workflow`_ below.
+
+The SEP process begins with a new idea for ROS.  It is highly
+recommended that a single SEP contain a single key proposal or new
+idea. Small enhancements or patches often don't need
+a SEP and can be injected into the ROS development work flow with a
+patch submission to the ROS `issue tracker`_. The more focussed the
+SEP, the more successful it tends to be.  The SEP editor reserves the
+right to reject SEP proposals if they appear too unfocussed or too
+broad.  If in doubt, split your SEP into several well-focussed ones.
+
+Each SEP must have a champion -- someone who writes the SEP using the
+style and format described below, shepherds the discussions in the
+appropriate forums, and attempts to build community consensus around
+the idea.  The SEP champion (a.k.a. Author) should first attempt to
+ascertain whether the idea is SEP-able.  Posting to the ros-users list
+is the best way to go about this.
+
+Vetting an idea publicly before going as far as writing a SEP is meant
+to save the potential author time. Many ideas have been brought
+forward for changing ROS that have been rejected for various
+reasons. Asking the ROS community first if an idea is original
+helps prevent too much time being spent on something that is
+guaranteed to be rejected based on prior discussions (searching
+the internet does not always do the trick). It also helps to make sure
+the idea is applicable to the entire community and not just the author.
+Just because an idea sounds good to the author does not
+mean it will work for most people in most areas where ROS is used.
+
+Once the champion has asked the ROS community as to whether an idea
+has any chance of acceptance, a draft SEP should be presented to
+ros-users.  This gives the author a chance to flesh out the draft SEP
+to make properly formatted, of high quality, and to address initial
+concerns about the proposal.
+
+Following a discussion on ros-users, the draft SEP should be sent to
+the ros-users list. The draft must be written in SEP style as
+described below, else it will be sent back without further regard
+until proper formatting rules are followed.
+
+If the SEP editor approves, he will assign the SEP a number, label it
+as Standards Track, Informational, or Process, give it status "Draft",
+and create and check-in the initial draft of the SEP.  The SEP editor
+will not unreasonably deny a SEP.  Reasons for denying SEP status
+include duplication of effort, being technically unsound, not
+providing proper motivation or addressing backwards compatibility, or
+not in keeping with the ROS philosophy.  The MDFN (Malevolent Dictator
+for Now, TBD) can be consulted during the approval phase, and is the
+final arbiter of the draft's SEP-ability.
+
+As updates are necessary, the SEP author can check in new versions if
+they have SVN commit permissions, or can email new SEP versions to
+the SEP editor for committing.
+
+Standards Track SEPs consist of two parts, a design document and a
+reference implementation.  The SEP should be reviewed and accepted
+before a reference implementation is begun, unless a reference
+implementation will aid people in studying the SEP.  Standards Track
+SEPs must include an implementation -- in the form of code, a patch,
+or a URL to same -- before it can be considered Final.
+
+SEP authors are responsible for collecting community feedback on a SEP
+before submitting it for review. However, wherever possible, long
+open-ended discussions on public mailing lists should be avoided.
+Strategies to keep the discussions efficient include: setting up a
+separate SIG mailing list for the topic, having the SEP author accept
+private comments in the early design phases, setting up a wiki page,
+etc.  SEP authors should use their discretion here.
+
+Once the authors have completed a SEP, they must inform the SEP editor
+that it is ready for review.  SEPs are reviewed by the MDFN and his
+chosen consultants, who may accept or reject a SEP or send it back to
+the author(s) for revision.  For a SEP that is pre-determined to be
+acceptable (e.g., it is an obvious win as-is and/or its implementation
+has already been checked in) the MDFN may also initiate a SEP review,
+first notifying the SEP author(s) and giving them a chance to make
+revisions.
+
+For a SEP to be accepted it must meet certain minimum criteria.  It
+must be a clear and complete description of the proposed enhancement.
+The enhancement must sepresent a net improvement.  The proposed
+implementation, if applicable, must be solid and must not complicate
+existing libraries unduly.  Finally, a proposed enhancement must be
+"ROSonic".  (However, "ROSonic" is an imprecise term; it may be
+defined as whatever is acceptable to ROS Developers.  This logic is
+intentionally circular.)
+
+Once a SEP has been accepted, the reference implementation must be
+completed.  When the reference implementation is complete and accepted
+by the MDFN, the status will be changed to "Final".
+
+A SEP can also be assigned status "Deferred".  The SEP author or
+editor can assign the SEP this status when no progress is being made
+on the SEP.  Once a SEP is deferred, the SEP editor can re-assign it
+to draft status.
+
+A SEP can also be "Rejected".  Perhaps after all is said and done it
+was not a good idea.  It is still important to have a record of this
+fact.
+
+SEPs can also be replaced by a different SEP, rendering the original
+obsolete.  This is intended for Informational SEPs, where version 2 of
+an API can replace version 1.
+
+The possible paths of the status of SEPs are as follows:
+
+.. image:: sep-0001-1.png
+
+Some Informational and Process SEPs may also have a status of "Active"
+if they are never meant to be completed.  E.g. SEP 1 (this SEP).
+
+
+What belongs in a successful SEP?
+=================================
+
+Each SEP should have the following parts:
+
+1. Preamble -- RFC 822 style headers containing meta-data about the
+   SEP, including the SEP number, a short descriptive title (limited
+   to a maximum of 44 characters), the names, and optionally the
+   contact info for each author, etc.
+
+2. Abstract -- a short (~200 word) description of the technical issue
+   being addressed.
+
+3. Copyright/public domain -- Each SEP must either be explicitly
+   labelled as placed in the public domain (see this SEP as an
+   example) or licensed under the `Open Publication License`_.
+
+4. Specification -- The technical specification should describe the
+   syntax and semantics of any new feature.  The specification should
+   be detailed enough to allow competing, interoperable
+   implementations for any of the current ROS client libraries, if
+   applicable (roscpp, rospy, roslisp, etc...).
+
+5. Motivation -- The motivation is critical for SEPs that want to
+   change the ROS APIs.  It should clearly explain why the existing
+   API specification is inadequate to address the problem that
+   the SEP solves.  SEP submissions without sufficient motivation may
+   be rejected outright.
+
+6. Rationale -- The rationale fleshes out the specification by
+   describing what motivated the design and why particular design
+   decisions were made.  It should describe alternate designs that
+   were considered and related work, e.g. how the feature is supported
+   in other languages.
+
+   The rationale should provide evidence of consensus within the
+   community and discuss important objections or concerns raised
+   during discussion.
+
+7. Backwards Compatibility -- All SEPs that introduce backwards
+   incompatibilities must include a section describing these
+   incompatibilities and their severity.  The SEP must explain how the
+   author proposes to deal with these incompatibilities.  SEP
+   submissions without a sufficient backwards compatibility treatise
+   may be rejected outright.
+
+8. Reference Implementation -- The reference implementation must be
+   completed before any SEP is given status "Final", but it need not
+   be completed before the SEP is accepted.  It is better to finish
+   the specification and rationale first and reach consensus on it
+   before writing code.
+
+   The final implementation must include test code and documentation.
+
+
+SEP Formats and Templates
+=========================
+
+All SEP are expected to be formatted in reStructuredText_ with
+UTF-8-encoding.  reStructuredText_ SEPs allow for rich markup that is
+still quite easy to read.  SEP 12 contains instructions and a template
+[2]_ for reStructuredText.
+
+There is a Python script that converts SEPs to HTML for viewing on the
+web.  reStructuredText SEPs are parsed and converted by Docutils_ code
+called from the script.
+
+
+SEP Header Preamble
+===================
+
+Each SEP must begin with an RFC 822 style header preamble.  The headers
+must appear in the following order.  Headers marked with "*" are
+optional and are described below.  All other headers are required. ::
+
+    SEP: <sep number>
+    Title: <sep title>
+    Version: <svn version string>
+    Last-Modified: <svn date string>
+    Author: <list of authors' real names and optionally, email addrs>
+  * Discussions-To: <email address>
+    Status: <Draft | Active | Accepted | Deferred | Rejected |
+             Withdrawn | Final | Replaced>
+    Type: <Standards Track | Informational | Process>
+  * Content-Type: <text/plain | text/x-rst>
+  * Requires: <sep numbers>
+    Created: <date created on, in dd-mmm-yyyy format>
+  * ROS-Version: <version number>
+    Post-History: <dates of postings to ros-users>
+  * Replaces: <sep number>
+  * Replaced-By: <sep number>
+  * Resolution: <url>
+
+The Author header lists the names, and optionally the email addresses
+of all the authors/owners of the SEP.  The format of the Author header
+value must be
+
+    Random J. User <address@dom.ain>
+
+if the email address is included, and just
+
+    Random J. User
+
+if the address is not given.  For historical reasons the format
+"address@dom.ain (Random J. User)" may appear in a SEP, however new
+SEPs must use the mandated format above, and it is acceptable to
+change to this format when SEPs are updated.
+
+If there are multiple authors, each should be on a separate line
+following RFC 2822 continuation line conventions.  Note that personal
+email addresses in SEPs will be obscured as a defense against spam
+harvesters.
+
+*Note: The Resolution header is required for Standards Track SEPs
+only.  It contains a URL that should point to an email message or
+other web resource where the pronouncement about the SEP is made.*
+
+While a SEP is in private discussions (usually during the initial
+Draft phase), a Discussions-To header will indicate the mailing list
+or URL where the SEP is being discussed.  No Discussions-To header is
+necessary if the SEP is being discussed privately with the author, or
+on the ros-users email mailing lists.  Note that email addresses in
+the Discussions-To header will not be obscured.
+
+The Type header specifies the type of SEP: Standards Track,
+Informational, or Process.
+
+The format of a SEP is specified with a Content-Type header.  The only
+supported values is "text/x-rst", which designates reStructuredText
+encoding (see SEP 12 [2]_).
+
+The Created header records the date that the SEP was assigned a
+number, while Post-History is used to record the dates of when new
+versions of the SEP are posted to ros-users.  Both headers should be
+in dd-mmm-yyyy format, e.g. 14-Aug-2010.
+
+Standards Track SEPs must have a ROS-Version header which indicates
+the version/distribution of ROS that the feature will be released with.
+Informational and Process SEPs do not need a ROS-Version header.
+
+SEPs may have a Requires header, indicating the SEP numbers that this
+SEP depends on.
+
+SEPs may also have a Replaced-By header indicating that a SEP has been
+rendered obsolete by a later document; the value is the number of the
+SEP that replaces the current document.  The newer SEP must have a
+Replaces header containing the number of the SEP that it rendered
+obsolete.
+
+
+Auxiliary Files
+===============
+
+SEPs may include auxiliary files such as diagrams.  Such files must be
+named ``sep-XXXX-Y.ext``, where "XXXX" is the SEP number, "Y" is a
+serial number (starting at 1), and "ext" is replaced by the actual
+file extension (e.g. "png").
+
+
+Reporting SEP Bugs, or Submitting SEP Updates
+=============================================
+
+How you seport a bug, or submit a SEP update depends on several
+factors, such as the maturity of the SEP, the preferences of the SEP
+author, and the nature of your comments.  For the early draft stages
+of the SEP, it's probably best to send your comments and changes
+directly to the SEP author.  For more mature, or finished SEPs you may
+want to submit corrections to the ROS `issue tracker`_ so that your
+changes don't get lost.  If the SEP author is a ROS developer, assign the
+bug/patch to him, otherwise assign it to the SEP editor.
+
+When in doubt about where to send your changes, please check first
+with the SEP author and/or SEP editor.
+
+SEP authors who are also ROS committers can update the
+SEPs themselves by using "svn commit" to commit their changes.
+
+
+Transferring SEP Ownership
+==========================
+
+It occasionally becomes necessary to transfer ownership of SEPs to a
+new champion.  In general, we'd like to retain the original author as
+a co-author of the transferred SEP, but that's really up to the
+original author.  A good reason to transfer ownership is because the
+original author no longer has the time or interest in updating it or
+following through with the SEP process, or has fallen off the face of
+the 'net (i.e. is unreachable or not responding to email).  A bad
+reason to transfer ownership is because you don't agree with the
+direction of the SEP.  We try to build consensus around a SEP, but if
+that's not possible, you can always submit a competing SEP.
+
+If you are interested in assuming ownership of a SEP, send a message
+asking to take over, addressed to both the original author and
+ros-users.  If the original author doesn't respond to email in a
+timely manner, the SEP editor will make a unilateral decision (it's
+not like such decisions can't be reversed :).
+
+
+SEP Editor Responsibilities & Workflow
+======================================
+
+All SEP-related correspondence should be sent (or CC'd) to
+<ros-users@code.ros.org>.
+
+For each new SEP that comes in an editor does the following:
+
+* Read the SEP to check if it is ready: sound and complete.  The ideas
+  must make technical sense, even if they don't seem likely to be
+  accepted.
+
+* The title should accurately describe the content.
+
+* Edit the SEP for language (spelling, grammar, sentence structure,
+  etc.), markup (for reST SEPs), code style (examples should match SEP
+  8 & 7).
+
+If the SEP isn't ready, the editor will send it back to the author for
+revision, with specific instructions.
+
+Once the SEP is ready for the sepository, the SEP editor will:
+
+* Assign a SEP number (almost always just the next available number,
+  but sometimes it's a special/joke number, like 666 or 3141).
+
+* List the SEP in SEP 0 (in two places: the categorized list, and the
+  numeric list).
+
+* Add the SEP to SVN.  
+
+  The command to check out a read-only copy of the sepository is::
+
+      svn checkout https://code.ros.org/svn/sep/trunk sep
+
+* Send email back to the SEP author with next steps (post to
+  ros-users).
+
+Updates to existing SEPs also come in to ros-users@code.ros.org.  Many
+SEP authors are not SVN committers yet, so we do the commits for them.
+
+Many SEPs are written and maintained by developers with write access
+to the ROS codebase.  The SEP editors monitor the sep-commits list for
+SEP changes, and correct any structure, grammar, spelling, or markup
+mistakes we see.
+
+The editors don't pass judgement on SEPs.  We merely do the
+administrative & editorial part.  Except for times like this, there's
+relatively low volume.
+
+Resources:
+
+* `Getting Involved With ROS  <http://www.ros.org/wiki/Get%20Involved>`_
+
+* `ROS Developer's Guide <http://www.ros.org/wiki/DevelopersGuide>`_
+
+
+References and Footnotes
+========================
+
+.. [1] This historical record is available by the normal SVN commands
+   for retrieving older revisions.  For those without direct access to
+   the SVN tree, you can browse the current and past SEP revisions here:
+   https://code.ros.org/gf/project/sep/scmsvn/?action=browse&path=/trunk/
+
+.. [2] SEP 12, Sample reStructuredText SEP Template
+   (http://ros.org/seps/sep-0012.html)
+
+.. _issue tracker:
+   http://code.ros.org/trac/ros/
+
+.. _Open Publication License: http://www.opencontent.org/openpub/
+
+.. _reStructuredText: http://docutils.sourceforge.net/rst.html
+
+.. _Docutils: http://docutils.sourceforge.net/
+
+
+Copyright
+=========
+
+This document has been placed in the public domain.
+
+
+..
+   Local Variables:
+   mode: indented-text
+   indent-tabs-mode: nil
+   sentence-end-double-space: t
+   fill-column: 70
+   coding: utf-8
+   End:
+
