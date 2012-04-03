@@ -49,11 +49,11 @@ REQUIRES = {'python': '2.2',
 PROGRAM = sys.argv[0]
 RFCURL = 'http://www.faqs.org/rfcs/rfc%d.html'
 SEPURL = 'sep-%04d.html'
-SEPSVNURL = ('http://code.ros.org/svn/sep/trunk/sep-%04d.txt')
-SEPDIRRUL = 'http://www.ros.org/seps/'
+SEPSVNURL = ('https://github.com/AuburnSPaRC/SEP/trunk/sep-%04d.html')
+SEPDIRRUL = 'http://AuburnSPaRC.github.com/SEP/'
 
-HOST = "wgs32.willowgarage.com"                    # host for update
-HDIR = "/var/www/www.ros.org/html/seps" # target host directory
+HOST = ""                    # host for update
+HDIR = "" # target host directory
 LOCALVARS = "Local Variables:"
 
 COMMENT = """<!--

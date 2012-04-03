@@ -29,12 +29,10 @@ install:
 clean:
 	-rm *.html
 	-rm sep-0000.txt
+	-rm *.pyc
 
 update:
 	svn update
 
 propcheck:
 	$(PYTHON) propcheck.py
-
-upload: all
-	rsync *.txt *.html *.jpg *.png wgs32.willowgarage.com:/var/www/www.ros.org/html/seps

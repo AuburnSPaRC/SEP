@@ -40,7 +40,7 @@ class Writer(html4css1.Writer):
         % (default_stylesheet_path, default_template_path),
         (('ROS\'s home URL.  Default is "http://ros.org".',
           ['--ros-home'],
-          {'default': 'http://ros.org', 'metavar': '<URL>'}),
+          {'default': 'http://AuburnSPaRC.github.com/SEP', 'metavar': '<URL>'}),
          ('Home URL prefix for SEPs.  Default is "." (current directory).',
           ['--sep-home'],
           {'default': '.', 'metavar': '<URL>'}),
@@ -71,7 +71,7 @@ class Writer(html4css1.Writer):
         if roshome == '..':
             subs['sepindex'] = '.'
         else:
-            subs['sepindex'] = roshome + '/seps/sep-0000.html'
+            subs['sepindex'] = roshome + '/sep-0000.html'
         index = self.document.first_child_matching_class(nodes.field_list)
         header = self.document[index]
         self.sepnum = header[0][1].astext()
