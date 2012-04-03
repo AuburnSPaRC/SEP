@@ -43,9 +43,9 @@ PROGRAM = sys.argv[0]
 SERVER_DEST_DIR_BASE = (
     '/var/www/www.ros.org/html/seps')
 RFCURL = 'http://www.faqs.org/rfcs/rfc%d.html'
-SEPSVNURL = 'http://code.ros.org/svn/sep/trunk/sep-%04d.txt'
-SEPDIRURL = '/seps/'
-SEPURL = SEPDIRURL + 'sep-%04d'
+SEPSVNURL = 'https://github.com/AuburnSPaRC/SEP/trunk/sep-%04d.html'
+SEPDIRURL = ''
+SEPURL = SEPDIRURL + 'sep-%04d.html'
 SEPANCHOR = '<a href="' + SEPURL + '">%i</a>'
 
 LOCALVARS = "Local Variables:"
@@ -149,8 +149,7 @@ def fixanchor(current, match):
 
 
 NON_MASKED_EMAILS = [
-    'ros-users@code.ros.org',
-    'ros-developers@code.ros.org',
+    'ausparc@googlegroups.com'
     ]
 
 def fixemail(address, sepno):
@@ -272,7 +271,7 @@ def fixfile(inpath, input_lines, outfile):
                         need_pre = 0
                     print >> outfile, re.sub(
                         parts[1],
-                        '<a href="/seps/sep-%04d/">%s</a>' % (int(parts[1]),
+                        '<a href="/sep-%04d/">%s</a>' % (int(parts[1]),
                             parts[1]), line, 1),
                     continue
                 elif parts and '@' in parts[-1]:

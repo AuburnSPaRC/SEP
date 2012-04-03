@@ -49,7 +49,7 @@ REQUIRES = {'python': '2.2',
 PROGRAM = sys.argv[0]
 RFCURL = 'http://www.faqs.org/rfcs/rfc%d.html'
 SEPURL = 'sep-%04d.html'
-SEPSVNURL = ('https://github.com/AuburnSPaRC/SEP/trunk/sep-%04d.html')
+SEPSVNURL = ('https://github.com/AuburnSPaRC/SEP/blob/gh-pages/sep-%04d.html')
 SEPDIRRUL = 'http://AuburnSPaRC.github.com/SEP/'
 
 HOST = ""                    # host for update
@@ -189,7 +189,7 @@ def fixfile(inpath, input_lines, outfile):
         'sepindex': 'sep-0000.html',
         'sep': title,
         'sepnum': "%04d"%int(sep),
-        'sephome': '/seps',
+        'sephome': 'https://github.com/AuburnSPaRC/SEP/blob/gh-pages',
         'encoding': 'utf-8',
         'version': '',
         'title': 'SEP '+sep+" -- "+title,
