@@ -32,13 +32,13 @@ class Headers(Transform):
     default_priority = 360
 
     sep_url = 'sep-%04d'
-    sep_svn_url = 'http://code.ros.org/svn/sep/trunk/sep-%04d.txt'
+    sep_svn_url = 'https://github.com/AuburnSPaRC/SEP/blob/master/sep-%04d.txt'
     rcs_keyword_substitutions = (
           (re.compile(r'\$' r'RCSfile: (.+),v \$$', re.IGNORECASE), r'\1'),
           (re.compile(r'\$[a-zA-Z]+: (.+) \$$'), r'\1'),)
 
     def apply(self):
-        self.document.settings.sep_base_url = 'http://ros.org/seps/'
+        self.document.settings.sep_base_url = 'https://AuburnSPaRC.github.com/SEP/'
 
         if not len(self.document):
             # @@@ replace these DataErrors with proper system messages
@@ -263,7 +263,7 @@ class SEPZeroSpecial(nodes.SparseNodeVisitor):
         self.entry = 0
 
     def visit_entry(self, node):
-        self.document.settings.sep_base_url = 'http://ros.org/seps/'
+        self.document.settings.sep_base_url = 'http://AuburnSPaRC.github.com/SEP/'
         
         self.entry += 1
         if self.sep_table and self.entry == 2 and len(node) == 1:
@@ -280,9 +280,7 @@ class SEPZeroSpecial(nodes.SparseNodeVisitor):
                     pass
 
 
-non_masked_addresses = ('seps@python.org',
-                        'ros-users@code.ros.org',
-                        'ros-developers@code.ros.org')
+non_masked_addresses = ('ausparc@googlegroups.com')
 
 def mask_email(ref, sepno=None):
     """
