@@ -1,0 +1,51 @@
+SEP: 20
+Title: The Zen of SPaRC
+Version: $Revision$
+Last-Modified: $Date$
+Author: Markus Kreitzer
+Status: Draft
+Type: Process
+Content-Type: text/x-rst
+Created: 05-Apr-2012
+Post-History: 
+
+
+Abstract
+========
+
+
+The Zen of SPaRC
+================
+The Zen of Python
+    errors should never pass silently. --A common new programmer mistake.
+    now is better than never.
+    readability counts.
+    special cases aren't special enough to break the rules.
+    beautiful is better than ugly.
+    explicit is better than implicit.
+    simple is better than complex.
+    complex is better than complicated.
+    flat is better than nested.
+    sparse is better than dense.
+    although practicality beats purity.
+    unless explicitly silenced.
+    in the face of ambiguity, refuse the temptation to guess.
+    
+	If the implementation is hard to explain, it's a bad idea.
+	If the implementation is easy to explain, it may be a good idea.
+	
+Copyright
+=========
+
+This document has been placed in the public domain.
+
+
+
+..
+   Local Variables:
+   mode: indented-text
+   indent-tabs-mode: nil
+   sentence-end-double-space: t
+   fill-column: 70
+   coding: utf-8
+   End:

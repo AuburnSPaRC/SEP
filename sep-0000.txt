@@ -27,6 +27,7 @@ Index by Category
  P     2  Requirements for Keypad Access                          Smolin
  P     3  Lab Policies and Rules                                  Carroll
  P    12  Sample reStructuredText SEP Template                    Carroll
+ P    20  The Zen of SPaRC                                        Kreitzer
 
  Other Informational SEPs
 
@@ -54,6 +55,8 @@ Index by Category
 
  P    12  Sample reStructuredText SEP Template                    Carroll
 
+ P    20  The Zen of SPaRC                                        Kreitzer
+
 
 Key
 
@@ -76,6 +79,7 @@ Owners
     name              email address
     ----              -------------
     Carroll, Michael  
+    Kreitzer, Markus  
     Smolin, Levi      
 
 
