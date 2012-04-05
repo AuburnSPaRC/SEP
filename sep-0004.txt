@@ -7,14 +7,14 @@ Status: Draft
 Type: Process
 Content-Type: text/x-rst
 Created: 04-Apr-2012
-Post-History: 
+Post-History:
 
 
 Abstract
 ========
 
 This SEP provides the guidelines for submitting a request to purchase
-items for SPaRC.  This should make it easier for SPaRC members to 
+items for SPaRC.  This should make it easier for SPaRC members to
 submit purchase requests by providing a step-by-step procedure to
 follow.  It should also make review and approval of purchasing requests
 easier by ensuring a standard format for requests.
@@ -60,9 +60,9 @@ would be purchased.  For example ``SoutheastCon 2012`` or ``3D Printer``.
 - ``Urgency`` - Some indication of how urgent or time-sensitive the
 purchase request is.  Examples would be ``Need by Friday March 2nd`` or
 ``Not urgent, no rush`` or even something like ``Standard shipping is
-fine``. 
+fine``.
 
-* After the heading comes the body of the purchase request.  The first 
+* After the heading comes the body of the purchase request.  The first
 row of the body on the spreadsheet should contain the column headings.
 
 - The first column should be labeled ``Part Name``.  This column will
@@ -74,7 +74,7 @@ what the item is.
 or something of that nature, and should contain that information.
 
 - The next column should be labeled ``Item Purchasing Link``.  If
-possible this column should contain links that go directly to the item 
+possible this column should contain links that go directly to the item
 purchasing page.  If this page cannot be linked, then at least have a
 link to the general website on which the items will be purchased.
 
