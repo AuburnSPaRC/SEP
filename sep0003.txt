@@ -1,0 +1,126 @@
+SEP: 3
+Title: Lab Policies and Rules
+Version: $Revision: $
+Last-Modified: $Date: $
+Author: Michael Carroll
+Status: Draft
+Type: Process
+Content-Type: text/x-rst
+Created: 05-Apr-2012
+Post-History:
+
+Abstract
+========
+
+This SEP provides the policies and procedures for using the SPaRC lab in Broun Hall.  The SPaRC lab is a community lab, meaning at any given time, there are multiple projects going on, so it is necessary for all members to be courteous and kind when it comes to using the lab resources.
+
+In short, it is best to always leave the lab cleaner than when you found it.  Please do not use the lab for storage of other class projects, textbooks, or random clutter.  There is limited lab space available, and it needs to be devoted to SPaRC projects.
+
+The lab is not your office or your closet, so please don't use it like it is.
+
+Rationale
+=========
+
+In the past, the SPaRC lab has had anywhere from one to six projects going on.  This leads to conflicts with using lab equipment and resources among the projects that are happening.  The purpose of this document is to outline some general rules and courtesies that members should observe when using the lab facility that SPaRC has.
+
+By everyone following the rules, it will make the entire lab more functional, clean, and productive.
+
+Lab Space
+=========
+
+Gaining Access to the SPaRC Lab
+-------------------------------
+
+Requirements for access to the SPaRC lab are given in [1]_.
+
+Door Code
+---------
+
+All SPaRC members who meet the requirements in [1]_ will receive a 6-digit door code.  This code will electronically unlock the door to the SPaRC lab.  Additionally, this code opens the door in the basement of Broun after 7 pm, as well as the door on the loading dock
+
+Door Policy
+-----------
+
+When entering the lab, please log in using your door code.  When leaving the lab, be sure to log out using your door code (The screen will display "bye").
+
+If you are expecting many people to come to the lab, it is possible to set the door to unlocked, using the button on the inside of the door frame.  Please do not prop the door open.
+
+When leaving, remember to lock the door.  The lab should never be left with no one there and unlocked.  Additionally, when leaving, please turn off all of the lights and close the windows.
+
+Food and Drink
+--------------
+
+Please do not use the lab as your cafeteria.  If you would like to eat, there are other rooms in Broun to do so (such as the Greene room in the basement).
+
+If you bring any sort of food and drink into the lab, please throw all of your trash away.
+
+There is a refridgerator in the lab for storing unopened drinks only.
+
+Personal Belongings
+-------------------
+
+Please do not leave personal belonings in the lab.  There is not enough room in the lab for it to be used as a locker for everybody's class projects and equipment.
+
+Workspace
+=========
+
+Working
+-------
+
+If you are cutting, drilling, or dremeling, please do so over a trash can.  All shavings should be swept up and put into the trash can when you are done working.
+
+Please do not paint in the lab.
+
+Please return the trash can to it's home (next to the door) when you are done.
+
+Project Storage
+---------------
+
+Please store your projects when you are not working on them.  A place to store your project can be allocated by the team.
+
+If a project is in storage, DO NOT REMOVE PARTS FROM IT.
+
+Tools
+-----
+
+When you finish working, please return all tools to their proper locations.
+
+The lab is generally grouped by work stations.  The electrical tools should remain with the soldering station, the mechanical tools should remain with the vice.
+
+Personal tools should be kept in the desk cabinet and labelled as such.
+
+Components
+----------
+
+All components kept in the lab can be used for SPaRC projects, provided they don't belong to another project.  Please work to keep components neat and orderly.  There are many boxes and drawers for managing components.
+
+Computers
+=========
+
+There are several computers in the SPaRC lab for use by members.  Please use the computers for SPaRC project-related work, and not for homework.
+
+Generally, SPaRC computers have the username "sparc" and no password for temporary work.
+
+If there are speakers, please only use them after hours.  Be courteous to occupants of the lab and occupants of surrounding labs.
+
+References and Footnotes
+========================
+
+.. [1] SEP 2, Requirements for Keypad Access
+   (http://AuburnSPaRC.github.com/SEP/sep-0002.html)
+
+Copyright
+=========
+
+This document has been placed in the public domain.
+
+
+
+..
+   Local Variables:
+   mode: indented-text
+   indent-tabs-mode: nil
+   sentence-end-double-space: t
+   fill-column: 70
+   coding: utf-8
+   End:
