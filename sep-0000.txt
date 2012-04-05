@@ -26,6 +26,7 @@ Index by Category
  P     1  SEP Purpose and Guidelines                              Carroll
  P     2  Requirements for Keypad Access                          Smolin
  P     3  Lab Policies and Rules                                  Carroll
+ P     5  Requirements for Keypad Access                          Smolin
  P    12  Sample reStructuredText SEP Template                    Carroll
  P    20  The Zen of SPaRC                                        Kreitzer
 
@@ -52,6 +53,8 @@ Index by Category
  P     1  SEP Purpose and Guidelines                              Carroll
  P     2  Requirements for Keypad Access                          Smolin
  P     3  Lab Policies and Rules                                  Carroll
+
+ P     5  Requirements for Keypad Access                          Smolin
 
  P    12  Sample reStructuredText SEP Template                    Carroll
 

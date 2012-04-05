@@ -3,7 +3,7 @@ Title: The Zen of SPaRC
 Version: $Revision$
 Last-Modified: $Date$
 Author: Markus Kreitzer
-Status: Draft
+Status: Active
 Type: Process
 Content-Type: text/x-rst
 Created: 05-Apr-2012

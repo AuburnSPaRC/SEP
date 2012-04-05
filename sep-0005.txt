@@ -1,0 +1,71 @@
+SEP: 5
+Title: Requirements for Keypad Access
+Version: $Revision$
+Last-Modified: $Date$
+Author: Levi Smolin
+Status: Draft
+Type: Process
+Content-Type: text/x-rst
+Created: 05-March-2012
+
+
+Abstract
+========
+
+This SEP provides a guideline for how meetings will be structured.  
+
+Rationale
+=========
+
+Standardizing the structure of meetings will help to facilitate efficient use of time and will minimize
+overlooking important items that need to be discussed.  
+
+
+Meeting Format
+==============
+
+Meetings for SPaRC shall be every Thursday at 5:30 unless the majority of members
+agree to move the day of the week/time, either temporarily or perminatly.  
+
+Each meeting will have an agenda, to which items can be added or removed if agreed
+upon by the majority of members present.  While it is not the intention of the SEP to 
+limit all conversation to topics at hand (some banter may be allowed), unless an 
+especially prevalent or immediate issue, all agenda items should be limited to 20 minutes
+or less.  If an agend item requires longer than 20 minutes to discuss fully, it might
+signify that the item should be split into smaller sub-items.
+
+Minutes shall be taken each meeting and pushed to github within 24 hours.  The title of each 
+document containing minutes shall be the following format: SPaRC_Minutes_$date$ where date is 
+formatted mm-dd-yyyy  For example, the document containing meeting minutes from April 5th, 2012 would be entitled "SPaRC_Minutes_04-05-2012".
+
+Each decision made during a meeting shall be made in accordance to the EDA set forth in SEP(ADD NUMBER) [1]
+and all decisions made during the preceding week shall be reviewed to ensure their compliance with 
+the EDA.
+
+The meeting shall end when all items on the agenda have been discussed to the satisfaction of the majority
+of present members.
+
+
+
+
+Copyright
+=========
+
+This document has been placed in the public domain.
+
+
+References and Footnotes
+========================
+.. [1] SEP(ADD NUMBER), "Engineering Design Algorithm", Faggard
+   (http://AuburnSPaRC.github.com/SEP/sep-[ADD NUMBER].html)
+
+
+
+..
+   Local Variables:
+   mode: indented-text
+   indent-tabs-mode: nil
+   sentence-end-double-space: t
+   fill-column: 70
+   coding: utf-8
+   End:
