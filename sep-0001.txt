@@ -1,7 +1,7 @@
 SEP: 1
 Title: SEP Purpose and Guidelines
-Version: $Revision: $
-Last-Modified: $Date: 2012-02-20 15:26:26 -0600 (Mon, 20 Feb 2012) $
+Version: $Revision$
+Last-Modified: $Date$
 Author: Michael Carroll
 Status: Active
 Type: Process
@@ -398,7 +398,7 @@ Once the SEP is ready for the repository, the SEP editor will:
 * List the SEP in SEP 0 (in two places: the categorized list, and the
   numeric list).
 
-* Add the SEP to Github.  
+* Add the SEP to Github.
 
 * Send email back to the SEP author with next steps (post to
   ausparc@googlegroups.com).
@@ -428,7 +428,7 @@ References and Footnotes
 .. [2] SEP 12, Sample reStructuredText SEP Template
    (http://AuburnSPaRC.github.com/SEP/sep-0012.html)
 
-.. _Issue Tracker: http://github.com/AuburnSPaRC 
+.. _Issue Tracker: http://github.com/AuburnSPaRC
 
 .. _Open Publication License: http://www.opencontent.org/openpub/
 

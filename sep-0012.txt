@@ -1,7 +1,7 @@
 SEP: 12
 Title: Sample reStructuredText SEP Template
-Version: $Revision: 179 $
-Last-Modified: $Date: 2012-02-20 12:02:31 -0800 (Mon, 20 Feb 2012) $
+Version: $Revision$
+Last-Modified: $Date$
 Author: Michael Carroll
 Status: Draft
 Type: Process
@@ -110,8 +110,8 @@ directions below.
 - For Standards Track SEPs, after the Created header, add a
   ROS-Version header and set the value to the next planned version
   of ROS, i.e. the one your new feature will hopefully make its
-  first appearance in.  Do not use an unstable release here (e.g. 1.3.x). 
-  Thus, if the last version of ROS was 1.2.2 and you're hoping to get 
+  first appearance in.  Do not use an unstable release here (e.g. 1.3.x).
+  Thus, if the last version of ROS was 1.2.2 and you're hoping to get
   your new feature into ROS 1.4, set the header to::
 
       ROS-Version: 1.4
@@ -273,7 +273,7 @@ per indent level.
 Literal Blocks
 --------------
 
-..  
+..
     In the text below, double backquotes are used to denote inline
     literals.  "``::``" is written so that the colons will appear in a
     monospaced font; the backquotes (``) are markup, not part of the
@@ -484,7 +484,7 @@ followed by the footnote body.  For example::
     References
     ==========
 
-    .. [2] SEP 1, "SEP Purpose and Guidelines", Carroll 
+    .. [2] SEP 1, "SEP Purpose and Guidelines", Carroll
        (http://AuburnSPaRC.github.com/SEP/sep-0001.html)
 
 If you decide to provide an explicit URL for a SEP, please use this as
