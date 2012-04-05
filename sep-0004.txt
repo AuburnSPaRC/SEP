@@ -1,0 +1,150 @@
+SEP: 4
+Title: Purchase Request SEP
+Version: $Revision$
+Last-Modified: $Date$
+Author: Ben Straub <straub@auburn.edu>
+Status: Draft
+Type: Process
+Content-Type: text/x-rst
+Created: 04-Apr-2012
+Post-History:
+
+
+Abstract
+========
+
+This SEP provides the guidelines for submitting a request to purchase
+items for SPaRC.  This should make it easier for SPaRC members to
+submit purchase requests by providing a step-by-step procedure to
+follow.  It should also make review and approval of purchasing requests
+easier by ensuring a standard format for requests.
+
+
+Rationale
+=========
+
+Without a standard for purchase requests, formatting of requests would
+vary widely, making review of requests more difficult and thus delaying
+the purchasing process.  Also a lack of standards could result in
+necessary purchasing information being omitted from the purchasing
+requests, causing requests to have to be delayed until clarified, or
+simply outright denied.
+
+
+How to Format Your Purchase Requests
+====================================
+
+The information in your purchase request should be as complete as
+possible to ensure that there are no complications in the review of
+your request.  Follow these guidelines as closely as possible.
+
+* Make a spreadsheet file, either in the .xls or .xlsx file format.
+
+* Name the file ``SPaRCPurchase[mmddyyyy].xls(x)`` where mm / dd / yyyy is the date of the purchase request submission.  For example, a purchase request being submitted on February 25th, 2012, in the .xlsx file type would be named ``SPaRCPurchase02252012.xlsx``.
+
+* The first few rows make up the header information.  This should include the following (properly labeled) information::
+
+    - ``Name`` - The name of the person writing the purchase request.
+    This person will be responsible for any information that is missing
+    or needs clarification on the purchase request.
+
+    - ``Date`` - The date of the request submission.
+
+    - ``Project`` - The name of the project for which the requested items
+    would be purchased.  For example ``SoutheastCon 2012`` or ``3D Printer``.
+
+    - ``Urgency`` - Some indication of how urgent or time-sensitive the
+    purchase request is.  Examples would be ``Need by Friday March 2nd`` or
+    ``Not urgent, no rush`` or even something like ``Standard shipping is
+    fine``.
+
+* After the heading comes the body of the purchase request.  The first
+    row of the body on the spreadsheet should contain the column headings.
+
+    - The first column should be labeled ``Part Name``.  This column will
+      contain part names, such as "QTR-1 Reflectance Sensor" or "GM9 Geared
+      Motor" or "Resistor - 5k".  The name should make it fairly apparent
+      what the item is.
+
+    - The next column should be labeled ``Item Number`` or ``Part Number``
+      or something of that nature, and should contain that information.
+
+    - The next column should be labeled ``Item Purchasing Link``.  If
+      possible this column should contain links that go directly to the item
+      purchasing page.  If this page cannot be linked, then at least have a
+      link to the general website on which the items will be purchased.
+
+    - The next column should be labeled ``Quantity``.  This column should
+      contain a numeric indication of how many of the item should be purchased.
+
+    - The next column should be labeled ``Item Price``.  This column should
+      contain the price per unit of the item.  Do not include shipping charges
+      in this amount.
+
+    - The final column should be labeled ``Total Price``.  This should be
+      equal to quantity times the item price.
+
+* If shipping is a significant portion of the total order cost, you may
+  optionally include shipping as a listed item with a name indicating the
+  shipping type (i.e. ``Shipping - UPS standard``), a total price indicating
+  the shipping cost, and all other columns blank.
+
+* Underneath the last item in the body, there should be an indicated
+  total, which equals the sum of the total prices of all items.
+
+
+Other Things to Include in Your Request
+=======================================
+
+The above information describes the main information needed in your
+purchase request.  However, depending on the situation, some additional
+information may be required for ensure the timely approval of your request.
+
+Under the body of the purchase request, additional notes may be added.
+Some specific notes that may be needed are:
+
+* If the nature of an item is not obvious from its name, it may be
+  beneficial to include a description that indicates what it is.
+
+* If it is not obvious from the item name / description and the project
+  that the request is for as to why you are making the purchase, include
+  a brief explanation for the purchase request.  For example, if you were
+  to request a purchase for guitar string for your robot, you might explain
+  that you intend to use the flexible, conductive guitar string as cheap,
+  easy-to-make whisker sensors.  (This is actually a bad example because
+  you should be able to find old used guitar string for free that works just
+  as well.)
+
+* For more expensive purchases, such as motherboards or higher-end
+  microcontrollers, you should indicate that the group has discussed other
+  alternatives and that you have collectively decided on that item, and
+  briefly explain why.
+
+
+
+Example Purchase Request
+========================
+
+Add an image of a sample purchase request.
+
+    .. image:: sep-0004-1.jpg
+
+Is it possible to include a sample .xls file with this SEP?
+The file is sep-0004-2.xlsx
+
+
+Copyright
+=========
+
+This document has been placed in the public domain.
+
+
+
+..
+   Local Variables:
+   mode: indented-text
+   indent-tabs-mode: nil
+   sentence-end-double-space: t
+   fill-column: 70
+   coding: utf-8
+   End:
