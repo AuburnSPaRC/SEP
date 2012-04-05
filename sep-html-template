@@ -12,6 +12,7 @@ DO NOT USE THIS HTML FILE AS YOUR TEMPLATE!
 <meta name="robots" content="index,follow"> 
  
   <title>SEP %(sep)s -- %(title)s</title>
+  <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="common.css"/>
  %(stylesheet)s
  
 </head> 
