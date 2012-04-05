@@ -1,0 +1,71 @@
+SEP: 2
+Title: Requirements for Keypad Access 
+Version: $Revision: 1 $
+Last-Modified: $Date: 2012-04-5 1:49:00 -0800 (Thur, 5 March 2012) $
+Author: Levi Smolin
+Status: Draft
+Type: Process
+Content-Type: text/x-rst
+Created: 05-March-2012
+
+
+Abstract
+========
+
+This SEP provides a framework for joining SPaRC and gives guidelines for 
+when a new member can acquire keypad access to the lab.  
+
+Rationale
+=========
+
+By standardizing the joining process, there will be a clear-cut way to keep
+track of current membership.  In addition to this, requiring a set amount of attendance
+before access to the lab is given will give new members a trial period during which they 
+can learn lab policies and be mentored in the progress of on-going projects.  It also serves
+to keep down use of the lab as merely a place to store personal items and restricts use of 
+parts/equipment to those actively contributing toward group projects.  
+
+
+Process for Joining
+========================
+
+An individual will be considered a pending member when he/she attends a
+regularly scheduled meeting and declares his intention, either verbally or otherwise
+to join.  At that point, he should provide contact information.  A pending
+member is given access to the lab at the discretion of full members.
+
+In order to become a full member a pending member must complete the following requirements within
+six weeks of declaring an intention to join:
+
+	1.  Attend at least three regularly scheduled SPaRC meetings.
+	2.  Attend at least three hours of regularly scheduled lab hours (to be announced)
+	3.  Submit a letter of intent.
+	4.  Create an account on github.com and attain access to repositories
+
+The letter of intent will be an informal, 1-2 page (12 pt.) document stating why
+the pending member wants to join SPaRC and stating pending member's current 
+academic status (i.e. Freshman, Sophomore, etc.) and pertinant skills. 
+
+There is NO PAST EXPERIENCE OF KNOWNLEDGE REQUIREMED TO JOIN SPaRC.  The letter
+of intent is merely a way of evaluating new members in order to help them the
+best way possible.   
+
+
+
+
+
+Copyright
+=========
+
+This document has been placed in the public domain.
+
+
+
+..
+   Local Variables:
+   mode: indented-text
+   indent-tabs-mode: nil
+   sentence-end-double-space: t
+   fill-column: 70
+   coding: utf-8
+   End:
