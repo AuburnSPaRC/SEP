@@ -1,8 +1,8 @@
 SEP: 4
 Title: Purchase Request SEP
-Version: $Revision: 179 $
-Last-Modified: $Date: 2012-02-20 12:02:31 -0800 (Mon, 20 Feb 2012) $
-Author: Ben Straub  straub@auburn.edu
+Version: $Revision$
+Last-Modified: $Date$
+Author: Ben Straub <straub@auburn.edu>
 Status: Draft
 Type: Process
 Content-Type: text/x-rst
