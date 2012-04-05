@@ -1,6 +1,6 @@
 SEP: 0
 Title: Index of SPaRC Enhancement Proposals (SEPs)
-Last-Modified: 2012-04-03
+Last-Modified: 2012-04-05
 Author: SPaRC Team
 Status: Active
 Type: Informational
@@ -24,6 +24,8 @@ Index by Category
  Meta-SEPs (SEPs about SEPs or Processes)
 
  P     1  SEP Purpose and Guidelines                              Carroll
+ P     2  Requirements for Keypad Access                          Smolin
+ P     3  Lab Policies and Rules                                  Carroll
  P    12  Sample reStructuredText SEP Template                    Carroll
 
  Other Informational SEPs
@@ -47,6 +49,8 @@ Index by Category
      num  title                                                   owner
      ---  -----                                                   -----
  P     1  SEP Purpose and Guidelines                              Carroll
+ P     2  Requirements for Keypad Access                          Smolin
+ P     3  Lab Policies and Rules                                  Carroll
 
  P    12  Sample reStructuredText SEP Template                    Carroll
 
@@ -72,6 +76,7 @@ Owners
     name              email address
     ----              -------------
     Carroll, Michael  
+    Smolin, Levi      
 
 
 References
