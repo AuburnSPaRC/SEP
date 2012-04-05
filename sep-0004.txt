@@ -89,12 +89,12 @@ your request.  Follow these guidelines as closely as possible.
   equal to quantity times the item price.
 
 * If shipping is a significant portion of the total order cost, you may
-optionally include shipping as a listed item with a name indicating the
-shipping type (i.e. ``Shipping - UPS standard``), a total price indicating
-the shipping cost, and all other columns blank.
+  optionally include shipping as a listed item with a name indicating the
+  shipping type (i.e. ``Shipping - UPS standard``), a total price indicating
+  the shipping cost, and all other columns blank.
 
 * Underneath the last item in the body, there should be an indicated
-total, which equals the sum of the total prices of all items.
+  total, which equals the sum of the total prices of all items.
 
 
 Other Things to Include in Your Request
@@ -108,21 +108,21 @@ Under the body of the purchase request, additional notes may be added.
 Some specific notes that may be needed are:
 
 * If the nature of an item is not obvious from its name, it may be
-beneficial to include a description that indicates what it is.
+  beneficial to include a description that indicates what it is.
 
 * If it is not obvious from the item name / description and the project
-that the request is for as to why you are making the purchase, include
-a brief explanation for the purchase request.  For example, if you were
-to request a purchase for guitar string for your robot, you might explain
-that you intend to use the flexible, conductive guitar string as cheap,
-easy-to-make whisker sensors.  (This is actually a bad example because
-you should be able to find old used guitar string for free that works just
-as well.)
+  that the request is for as to why you are making the purchase, include
+  a brief explanation for the purchase request.  For example, if you were
+  to request a purchase for guitar string for your robot, you might explain
+  that you intend to use the flexible, conductive guitar string as cheap,
+  easy-to-make whisker sensors.  (This is actually a bad example because
+  you should be able to find old used guitar string for free that works just
+  as well.)
 
 * For more expensive purchases, such as motherboards or higher-end
-microcontrollers, you should indicate that the group has discussed other
-alternatives and that you have collectively decided on that item, and
-briefly explain why.
+  microcontrollers, you should indicate that the group has discussed other
+  alternatives and that you have collectively decided on that item, and
+  briefly explain why.
 
 
 
