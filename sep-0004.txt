@@ -40,49 +40,53 @@ your request.  Follow these guidelines as closely as possible.
 
 * Make a spreadsheet file, either in the .xls or .xlsx file format.
 
-* Name the file ``SPaRCPurchase[mmddyyyy].xls(x)`` where mm / dd / yyyy is the date of the purchase request submission.  For example, a purchase request being submitted on February 25th, 2012, in the .xlsx file type would be named ``SPaRCPurchase02252012.xlsx``.
+* Name the file ``SPaRCPurchase[mmddyyyy].xls(x)`` where mm / dd / yyyy
+  is the date of the purchase request submission.  For example, a
+  purchase request being submitted on February 25th, 2012, in the .xlsx
+  file type would be named ``SPaRCPurchase02252012.xlsx``.
 
-* The first few rows make up the header information.  This should include the following (properly labeled) information::
+* The first few rows make up the header information.  This should
+  include the following (properly labeled) information
 
-    - ``Name`` - The name of the person writing the purchase request.
+  - ``Name`` - The name of the person writing the purchase request.
     This person will be responsible for any information that is missing
     or needs clarification on the purchase request.
 
-    - ``Date`` - The date of the request submission.
+  - ``Date`` - The date of the request submission.
 
-    - ``Project`` - The name of the project for which the requested items
+  - ``Project`` - The name of the project for which the requested items
     would be purchased.  For example ``SoutheastCon 2012`` or ``3D Printer``.
 
-    - ``Urgency`` - Some indication of how urgent or time-sensitive the
+  - ``Urgency`` - Some indication of how urgent or time-sensitive the
     purchase request is.  Examples would be ``Need by Friday March 2nd`` or
     ``Not urgent, no rush`` or even something like ``Standard shipping is
     fine``.
 
 * After the heading comes the body of the purchase request.  The first
-    row of the body on the spreadsheet should contain the column headings.
+  row of the body on the spreadsheet should contain the column headings.
 
-    - The first column should be labeled ``Part Name``.  This column will
-      contain part names, such as "QTR-1 Reflectance Sensor" or "GM9 Geared
-      Motor" or "Resistor - 5k".  The name should make it fairly apparent
-      what the item is.
+- The first column should be labeled ``Part Name``.  This column will
+  contain part names, such as "QTR-1 Reflectance Sensor" or "GM9 Geared
+  Motor" or "Resistor - 5k".  The name should make it fairly apparent
+  what the item is.
 
-    - The next column should be labeled ``Item Number`` or ``Part Number``
-      or something of that nature, and should contain that information.
+- The next column should be labeled ``Item Number`` or ``Part Number``
+  or something of that nature, and should contain that information.
 
-    - The next column should be labeled ``Item Purchasing Link``.  If
-      possible this column should contain links that go directly to the item
-      purchasing page.  If this page cannot be linked, then at least have a
-      link to the general website on which the items will be purchased.
+- The next column should be labeled ``Item Purchasing Link``.  If
+  possible this column should contain links that go directly to the item
+  purchasing page.  If this page cannot be linked, then at least have a
+  link to the general website on which the items will be purchased.
 
-    - The next column should be labeled ``Quantity``.  This column should
-      contain a numeric indication of how many of the item should be purchased.
+- The next column should be labeled ``Quantity``.  This column should
+  contain a numeric indication of how many of the item should be purchased.
 
-    - The next column should be labeled ``Item Price``.  This column should
-      contain the price per unit of the item.  Do not include shipping charges
-      in this amount.
+- The next column should be labeled ``Item Price``.  This column should
+  contain the price per unit of the item.  Do not include shipping charges
+  in this amount.
 
-    - The final column should be labeled ``Total Price``.  This should be
-      equal to quantity times the item price.
+- The final column should be labeled ``Total Price``.  This should be
+  equal to quantity times the item price.
 
 * If shipping is a significant portion of the total order cost, you may
   optionally include shipping as a listed item with a name indicating the
