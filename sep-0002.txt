@@ -1,7 +1,7 @@
 SEP: 2
-Title: Requirements for Keypad Access 
-Version: $Revision: 1 $
-Last-Modified: $Date: 2012-04-5 1:49:00 -0800 (Thur, 5 March 2012) $
+Title: Requirements for Keypad Access
+Version: $Revision$
+Last-Modified: $Date$
 Author: Levi Smolin
 Status: Draft
 Type: Process
@@ -12,18 +12,18 @@ Created: 05-March-2012
 Abstract
 ========
 
-This SEP provides a framework for joining SPaRC and gives guidelines for 
-when a new member can acquire keypad access to the lab.  
+This SEP provides a framework for joining SPaRC and gives guidelines for
+when a new member can acquire keypad access to the lab.
 
 Rationale
 =========
 
 By standardizing the joining process, there will be a clear-cut way to keep
 track of current membership.  In addition to this, requiring a set amount of attendance
-before access to the lab is given will give new members a trial period during which they 
+before access to the lab is given will give new members a trial period during which they
 can learn lab policies and be mentored in the progress of on-going projects.  It also serves
-to keep down use of the lab as merely a place to store personal items and restricts use of 
-parts/equipment to those actively contributing toward group projects.  
+to keep down use of the lab as merely a place to store personal items and restricts use of
+parts/equipment to those actively contributing toward group projects.
 
 
 Process for Joining
@@ -43,12 +43,12 @@ six weeks of declaring an intention to join:
 	4.  Create an account on github.com and attain access to repositories
 
 The letter of intent will be an informal, 1-2 page (12 pt.) document stating why
-the pending member wants to join SPaRC and stating pending member's current 
-academic status (i.e. Freshman, Sophomore, etc.) and pertinant skills. 
+the pending member wants to join SPaRC and stating pending member's current
+academic status (i.e. Freshman, Sophomore, etc.) and pertinant skills.
 
 There is NO PAST EXPERIENCE OR KNOWNLEDGE REQUIREMED TO JOIN SPaRC.  The letter
 of intent is merely a way of evaluating new members in order to help them the
-best way possible.   
+best way possible.
 
 
 

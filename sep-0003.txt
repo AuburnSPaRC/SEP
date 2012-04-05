@@ -1,7 +1,7 @@
 SEP: 3
 Title: Lab Policies and Rules
-Version: $Revision: $
-Last-Modified: $Date: $
+Version: $Revision$
+Last-Modified: $Date$
 Author: Michael Carroll
 Status: Draft
 Type: Process
