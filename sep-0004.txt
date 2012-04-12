@@ -129,12 +129,12 @@ Some specific notes that may be needed are:
 Example Purchase Request
 ========================
 
-Add an image of a sample purchase request.
+Below is an example of a purchasing request.
 
-    .. image:: sep-0004-1.jpg
+    .. image:: sep-0004-1.JPG
 
-Is it possible to include a sample .xls file with this SEP?
-The file is sep-0004-2.xlsx
+For a downloadable example, go to:
+http://auburnsparc.github.com/SEP/sep-0004-2.xlsx
 
 
 Copyright
