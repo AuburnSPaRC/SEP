@@ -121,7 +121,7 @@ class Author(object):
 class SEP(object):
 
     """Representation of SEPs.
-    
+
     Attributes:
 
         + number : int
@@ -153,7 +153,7 @@ class SEP(object):
                ('Replaced-By', False), ('Resolution', False),
                )
     # Valid values for the Type header.
-    type_values = (u"Standards Track", u"Informational", u"Process")
+    type_values = (u"Rules", u"Informational", u"Process")
     # Valid values for the Status header.
     # Active SEPs can only be for Informational or Process SEPs.
     status_values = (u"Accepted", u"Rejected", u"Withdrawn", u"Deferred",
