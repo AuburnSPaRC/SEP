@@ -28,6 +28,7 @@ Index by Category
  P     3  Lab Policies and Rules                                  Carroll
  P     4  Purchase Request SEP                                    Straub
  P     5  Requirements for Keypad Access                          Smolin
+ P    10  Voting Guidelines                                       Carroll
  P    12  Sample reStructuredText SEP Template                    Carroll
  P    20  The Zen of SPaRC                                        Kreitzer
 
@@ -56,6 +57,8 @@ Index by Category
  P     3  Lab Policies and Rules                                  Carroll
  P     4  Purchase Request SEP                                    Straub
  P     5  Requirements for Keypad Access                          Smolin
+
+ P    10  Voting Guidelines                                       Carroll
 
  P    12  Sample reStructuredText SEP Template                    Carroll
 
