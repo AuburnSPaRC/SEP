@@ -121,7 +121,7 @@ def write_sep0(seps, output=sys.stdout):
     for sep in info:
         print>>output, unicode(sep)
     print>>output
-    print>>output, u" Accepted SEPs (accepted; may not be implemented yet)"
+    print>>output, u" Accepted SEPs"
     print>>output
     for sep in accepted:
         print>>output, unicode(sep)
@@ -131,7 +131,7 @@ def write_sep0(seps, output=sys.stdout):
     for sep in open_:
         print>>output, unicode(sep)
     print>>output
-    print>>output, u" Finished SEPs (done, implemented in code sepository)"
+    print>>output, u" Finished SEPs"
     print>>output
     for sep in finished:
         print>>output, unicode(sep)
