@@ -1,6 +1,6 @@
 SEP: 0
 Title: Index of SPaRC Enhancement Proposals (SEPs)
-Last-Modified: 2012-04-11
+Last-Modified: 2012-04-17
 Author: SPaRC Team
 Status: Active
 Type: Informational
@@ -34,13 +34,13 @@ Index by Category
  Other Informational SEPs
 
 
- Accepted SEPs (accepted; may not be implemented yet)
+ Accepted SEPs
 
 
  Open SEPs (under consideration)
 
 
- Finished SEPs (done, implemented in code sepository)
+ Finished SEPs
 
 
  Deferred, Abandoned, Withdrawn, and Rejected SEPs
@@ -64,7 +64,7 @@ Index by Category
 
 Key
 
-    S - Standards Track SEP
+    R - Rules SEP
     I - Informational SEP
     P - Process SEP
 
@@ -82,7 +82,7 @@ Owners
 
     name              email address
     ----              -------------
-    Carroll, Michael  
+    Carroll, Michael  mjcarroll@ieee.org
     Kreitzer, Markus  
     Smolin, Levi      
     Straub, Ben       straub@auburn.edu
