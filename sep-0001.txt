@@ -38,7 +38,7 @@ for robotics.
 This initial document is based on a search-and-replace of PEP 1 by
 Barry Warsaw, Jeremy Hylton, David Goodger. Over time, it will
 incorporate SPaRC-specific changes to this process. The Author field of
-this document has been changed in order to denote seponsibility for
+this document has been changed in order to denote responsibility for
 maintenance, not credit for original authorship.
 
 
@@ -149,7 +149,7 @@ revisions.
 
 For a SEP to be accepted it must meet certain minimum criteria.  It
 must be a clear and complete description of the proposed enhancement.
-The enhancement must sepresent a net improvement.  The proposed
+The enhancement must represent a net improvement.  The proposed
 implementation, if applicable, must be solid and must not complicate
 existing libraries unduly.  Finally, a proposed enhancement must be
 "SPaRC-ish".  (However, "SPaRC-ish" is an imprecise term; it may be
@@ -316,7 +316,7 @@ file extension (e.g. "png").
 Reporting SEP Bugs, or Submitting SEP Updates
 =============================================
 
-How you seport a bug, or submit a SEP update depends on several
+How you report a bug, or submit a SEP update depends on several
 factors, such as the maturity of the SEP, the preferences of the SEP
 author, and the nature of your comments.  For the early draft stages
 of the SEP, it's probably best to send your comments and changes
